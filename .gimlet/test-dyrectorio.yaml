@@ -1,0 +1,19 @@
+app: dyrectorio
+env: test
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.41.0
+values:
+  gitRepository: polaroi8d/dyrectorio
+  gitSha: '{{ .SHA }}'
+  ingress:
+    host: dfgsdsfsdfds
+  vars:
+    newKey: New Value
+    newKey-1: New Value
+    newKey-2: New Value
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
