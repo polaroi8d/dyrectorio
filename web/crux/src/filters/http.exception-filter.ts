@@ -2,6 +2,9 @@ import { ArgumentsHost, Catch, HttpException, Logger } from '@nestjs/common'
 import { Request, Response } from 'express'
 import CruxExceptionFilter from './crux.exception-filter'
 
+
+
+// comment
 @Catch()
 export default class HttpExceptionFilter extends CruxExceptionFilter {
   constructor() {
